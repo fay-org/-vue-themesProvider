@@ -1,0 +1,35 @@
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  color: inherit;
+  margin: 0;
+  line-height: inherit;
+  font-size: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+
+details {
+  border: none;
+  &:focus,
+  &:hover,
+  &:active {
+    outline: none;
+  }
+}
+
+summary {
+  cursor: pointer;
+  user-select: none;
+  &::-webkit-details-marker {
+    display: none;
+  }
+  &:focus,
+  &:hover,
+  &:active {
+    outline: none;
+  }
+}
