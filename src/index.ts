@@ -1,3 +1,4 @@
-const app = document.querySelector('.app')
+import './common.less'
 
-console.log(app)
+const root: Element = document.querySelector('html')
+root.classList.add('light')
