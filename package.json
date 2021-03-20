@@ -1,6 +1,6 @@
 {
   "name": "@fect-ui/themes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.css",
   "module": "main.css",
@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --config ./webpack.config.dev.ts --progress",
-    "build": "rm -rf ./dist && webpack --config ./webpack.config.prod.ts --progress"
+    "build": "rm -rf ./dist && webpack --config ./webpack.config.prod.ts --progress",
+    "release": "npm run build && npm  publish --access public"
   },
   "author": "Fect Org",
   "repository": {
@@ -16,7 +17,7 @@
     "url": "https://github.com/fay-org/themesProvider-vue.git"
   },
   "files": [
-    "./dist/css",
+    "dist/css",
     "README.md"
   ],
   "homepage": "https://github.com/fay-org/themesProvider-vue#readme",
