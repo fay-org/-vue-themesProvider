@@ -5,6 +5,7 @@ import * as HtmlWebpackPlugin from 'html-webpack-plugin'
 const config: webpack.Configuration = {
   entry: './src/index.ts',
   devtool: 'inline-source-map',
+  mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js',
