@@ -10,12 +10,7 @@ const config: webpack.Configuration = {
     rules: [
       {
         test: /\.(less|css)$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'style-loader',
-          'css-loader',
-          'less-loader',
-        ],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'less-loader'],
       },
       {
         test: /\.tsx?$/,
@@ -31,7 +26,7 @@ const config: webpack.Configuration = {
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].bundle.js',
+    filename: '[name].js',
   },
 }
 
