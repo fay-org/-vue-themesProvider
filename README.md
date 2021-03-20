@@ -1,6 +1,6 @@
 # themesProvider/@vue
 
-@fay-ui/vue layout themes and style
+@fect-ui/vue layout themes and style
 
 ## Usage
 

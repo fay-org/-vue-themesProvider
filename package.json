@@ -1,5 +1,5 @@
 {
-  "name": "@fay-ui/themes",
+  "name": "@fect-ui/themes",
   "version": "1.0.0",
   "description": "",
   "main": "main.css",
@@ -10,7 +10,7 @@
     "dev": "webpack serve --config ./webpack.config.dev.ts --progress",
     "build": "rm -rf ./dist && webpack --config ./webpack.config.prod.ts --progress"
   },
-  "author": "Fay Org",
+  "author": "Fect Org",
   "repository": {
     "type": "git",
     "url": "https://github.com/fay-org/themesProvider-vue.git"
