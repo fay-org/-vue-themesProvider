@@ -7,14 +7,14 @@
 ### install
 
 ```shell
-yarn add @fay-ui/themes
+yarn add @fect-ui/themes
 
-npm install @fay-ui/themes
+npm install @fect-ui/themes
 
 ```
 
 ### import
 
-- In `.js` file:` import from '@fay-ui/themes/main.css'`
+- In `.js` file:` import from '@fect-ui/themes'`
 
-- Or `.(css|less|sass....)` file:`@import '~@fay-ui/themes/main.css'`
+- Or `.(css|less|sass....)` file:`@import '~@fect-ui/themes/main.css'`
