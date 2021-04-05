@@ -1,6 +1,7 @@
 import * as MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import * as path from 'path'
 import * as webpack from 'webpack'
+import * as CssMinimizerPlugin from 'css-minimizer-webpack-plugin'
 
 const config: webpack.Configuration = {
   devtool: 'eval',
@@ -23,6 +24,7 @@ const config: webpack.Configuration = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
+    new CssMinimizerPlugin(),
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
