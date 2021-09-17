@@ -1,8 +1,8 @@
-import * as path from 'path'
-import * as webpack from 'webpack'
-import * as HtmlWebpackPlugin from 'html-webpack-plugin'
+import path from 'path'
+import { Configuration } from 'webpack'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
 
-const config: webpack.Configuration = {
+const config: Configuration = {
   entry: './src/index.ts',
   devtool: 'inline-source-map',
   mode: 'development',

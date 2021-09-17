@@ -1,9 +1,9 @@
-import * as MiniCssExtractPlugin from 'mini-css-extract-plugin'
-import * as path from 'path'
-import * as webpack from 'webpack'
-import * as CssMinimizerPlugin from 'css-minimizer-webpack-plugin'
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+import path from 'path'
+import { Configuration } from 'webpack'
+import CssMinimizerPlugin from 'css-minimizer-webpack-plugin'
 
-const config: webpack.Configuration = {
+const config: Configuration = {
   devtool: 'eval',
   mode: 'production',
   entry: './src/index.ts',
