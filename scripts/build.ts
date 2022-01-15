@@ -11,7 +11,7 @@ const transfromLess = async (code: string, filePath: string) => {
   try {
     const { css } = await render(code, {
       filename: filePath,
-      //   paths: [path.join(process.cwd(), "node_modules")],
+      paths: [path.join(process.cwd(), "node_modules")],
     });
     return css;
   } catch (error) {
