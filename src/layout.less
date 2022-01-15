@@ -1,4 +1,4 @@
-@import './normalize.less';
+@import "./normalize.less";
 
 *,
 *::before,
@@ -32,7 +32,7 @@ body {
 }
 
 a {
-  color: var(--fay-link-color);
+  color: var(--fect-link-color);
   text-decoration: none;
   cursor: pointer;
   -webkit-box-align: center;
@@ -64,21 +64,21 @@ h6 {
 }
 
 code {
-  color: var(--fay-code-color);
+  color: var(--fect-code-color);
   font-family: var(--font-mono);
   font-size: 0.9em;
   white-space: pre-wrap;
 
   &::before,
   &::after {
-    content: '`';
+    content: "`";
   }
 }
 
 pre {
   border: 1px solid var(--accents-2);
-  border-radius: var(--fay-radius);
-  padding: calc(var(--fay-gap) * 0.75) var(--fay-gap);
+  border-radius: var(--fect-radius);
+  padding: calc(var(--fect-gap) * 0.75) var(--fect-gap);
   margin: 1.5rem 0;
   white-space: pre;
   overflow: auto;
@@ -86,7 +86,7 @@ pre {
   -webkit-overflow-scrolling: touch;
 
   code {
-    color: var(--fay-code-color);
+    color: var(--fect-code-color);
     font-size: 0.8125rem;
     line-height: 1.25rem;
     white-space: pre;
