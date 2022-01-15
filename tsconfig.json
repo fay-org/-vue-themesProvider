@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outDir": "./dist",
     "sourceMap": true,
     "module": "commonjs",
-    "target": "es5",
+    "target": "ESNext",
     "allowJs": true,
-    "noImplicitAny":true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
     "importHelpers": true,
     "esModuleInterop": true,
-  }
+    "lib": ["ESNext"]
+  },
+  "include": ["scripts/*", "src/*", "scripts/transform.ts"]
 }
